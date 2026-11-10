@@ -1,0 +1,18 @@
+[
+  {
+    "id": "FACT-01",
+    "statement": "Number of retail locations",
+    "value": "127",
+    "owner": "Operations",
+    "source": "Q3 2026 Investor Report",
+    "expires_on": "2027-03-31"
+  },
+  {
+    "id": "FACT-03",
+    "statement": "Company founding year and city",
+    "value": "Founded in 1985 in Portland, Oregon",
+    "owner": "Brand Team",
+    "source": "Corporate History Archive",
+    "expires_on": "2025-12-31"
+  }
+]

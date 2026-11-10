@@ -1,0 +1,237 @@
+[
+  {
+    "draft_id": "D001",
+    "issue_category": "unit_specification",
+    "affected_text": "2 BHK (1,050 sq. ft. carpet area) and 3 BHK (1,450 sq. ft. carpet area) residences",
+    "expected_severity": "note",
+    "expected_source_id": "AG-FACT-AREA-2BHK-03",
+    "expected_reason": "Claimed 2 BHK and 3 BHK carpet areas match approved architectural schedule exactly.",
+    "expected_result": "supported"
+  },
+  {
+    "draft_id": "D001",
+    "issue_category": "pricing_claim",
+    "affected_text": "Residences start at ₹1.25 crore",
+    "expected_severity": "note",
+    "expected_source_id": "AG-PRICE-START-01",
+    "expected_reason": "Starting price matches approved price list schedule.",
+    "expected_result": "supported"
+  },
+  {
+    "draft_id": "D001",
+    "issue_category": "possession_timeline",
+    "affected_text": "Scheduled possession: December 2028",
+    "expected_severity": "note",
+    "expected_source_id": "AG-FACT-POSS-06",
+    "expected_reason": "Possession milestone matches regulatory schedule.",
+    "expected_result": "supported"
+  },
+  {
+    "draft_id": "D001",
+    "issue_category": "regulatory_disclosure",
+    "affected_text": "Project Registration: DEMO-HRERA-GGM-2026-0042 available at https://haryanarera.gov.in",
+    "expected_severity": "note",
+    "expected_source_id": "AG-APPR-RERA-01",
+    "expected_reason": "Mandatory regulatory registration reference is present and compliant.",
+    "expected_result": "supported"
+  },
+  {
+    "draft_id": "D002",
+    "issue_category": "factual_contradiction",
+    "affected_text": "2 BHK residences feature a generous 1,250 sq. ft. carpet area",
+    "expected_severity": "blocker",
+    "expected_source_id": "AG-FACT-AREA-2BHK-03",
+    "expected_reason": "Directly contradicts approved 2 BHK carpet area of 1,050 sq. ft.",
+    "expected_result": "contradicted"
+  },
+  {
+    "draft_id": "D002",
+    "issue_category": "factual_contradiction",
+    "affected_text": "3 BHK residences offer an expansive 1,850 sq. ft. carpet area",
+    "expected_severity": "blocker",
+    "expected_source_id": "AG-FACT-AREA-3BHK-04",
+    "expected_reason": "Directly contradicts approved 3 BHK carpet area of 1,450 sq. ft.",
+    "expected_result": "contradicted"
+  },
+  {
+    "draft_id": "D003",
+    "issue_category": "factual_contradiction",
+    "affected_text": "starting at an unbeatable promotional price of just ₹89 Lakhs!",
+    "expected_severity": "blocker",
+    "expected_source_id": "AG-PRICE-START-01",
+    "expected_reason": "Directly contradicts approved base starting price of ₹1.25 crore.",
+    "expected_result": "contradicted"
+  },
+  {
+    "draft_id": "D004",
+    "issue_category": "factual_contradiction",
+    "affected_text": "scheduled possession by December 2026",
+    "expected_severity": "blocker",
+    "expected_source_id": "AG-FACT-POSS-06",
+    "expected_reason": "Directly contradicts approved scheduled possession date of December 2028.",
+    "expected_result": "contradicted"
+  },
+  {
+    "draft_id": "D005",
+    "issue_category": "misleading_financial_claim",
+    "affected_text": "guarantees an assured 14% annual rental yield from day one, backed by developer bank guarantees",
+    "expected_severity": "blocker",
+    "expected_source_id": "BB-GUIDE-INVEST-06",
+    "expected_reason": "Directly violates agency guideline prohibiting guaranteed returns and fixed rental yield promises.",
+    "expected_result": "violation"
+  },
+  {
+    "draft_id": "D005",
+    "issue_category": "unsupported_claim",
+    "affected_text": "guarantee a 2.5x capital appreciation within 36 months with zero market risk",
+    "expected_severity": "blocker",
+    "expected_source_id": "BB-TERM-02",
+    "expected_reason": "Capital appreciation guarantee is unsubstantiated and prohibited under real estate terminology rules.",
+    "expected_result": "unsupported"
+  },
+  {
+    "draft_id": "D006",
+    "issue_category": "factual_contradiction",
+    "affected_text": "Gurugram's largest all-weather indoor temperature-controlled Olympic wave pool",
+    "expected_severity": "blocker",
+    "expected_source_id": "AG-AMEN-POOL-01",
+    "expected_reason": "Contradicts approved swimming pool specifications (approved as outdoor 25m x 10m pool with wading pool, not an indoor wave pool).",
+    "expected_result": "contradicted"
+  },
+  {
+    "draft_id": "D006",
+    "issue_category": "superlative_substantiation",
+    "affected_text": "Gurugram's largest all-weather indoor temperature-controlled Olympic wave pool",
+    "expected_severity": "warning",
+    "expected_source_id": "BB-GUIDE-SUPER-04",
+    "expected_reason": "Superlative 'Gurugram's largest' lacks required independent third-party verification or certification.",
+    "expected_result": "violation"
+  },
+  {
+    "draft_id": "D006",
+    "issue_category": "unapproved_amenity",
+    "affected_text": "4-lane private boutique bowling alley",
+    "expected_severity": "blocker",
+    "expected_source_id": "AG-AMEN-UNAPPROVED-06",
+    "expected_reason": "Bowling alley is an unapproved amenity explicitly listed on the architectural negative exclusion list.",
+    "expected_result": "contradicted"
+  },
+  {
+    "draft_id": "D007",
+    "issue_category": "terminology_violation",
+    "affected_text": "Super Built-up Area of 1,650 sq. ft. for 2 BHK and 2,150 sq. ft. Super Built-up Area for 3 BHK homes",
+    "expected_severity": "blocker",
+    "expected_source_id": "BB-TERM-01",
+    "expected_reason": "Marketing primarily or exclusively in terms of 'Super Built-up Area' is banned under agency terminology rules.",
+    "expected_result": "violation"
+  },
+  {
+    "draft_id": "D007",
+    "issue_category": "regulatory_disclosure_omission",
+    "affected_text": "Super Built-up Area of 1,650 sq. ft. for 2 BHK and 2,150 sq. ft. Super Built-up Area for 3 BHK homes",
+    "expected_severity": "blocker",
+    "expected_source_id": "AG-FACT-AREA-2BHK-03",
+    "expected_reason": "Omits mandatory RERA carpet area disclosure (1,050 sq. ft. for 2 BHK, 1,450 sq. ft. for 3 BHK).",
+    "expected_result": "violation"
+  },
+  {
+    "draft_id": "D008",
+    "issue_category": "misrepresentation_of_terms",
+    "affected_text": "100% Guaranteed Possession by December 2028",
+    "expected_severity": "blocker",
+    "expected_source_id": "BB-TERM-04",
+    "expected_reason": "Banned terminology; possession timeline must be communicated as scheduled possession, not an absolute guarantee.",
+    "expected_result": "violation"
+  },
+  {
+    "draft_id": "D008",
+    "issue_category": "unsupported_claim",
+    "affected_text": "receive double monthly rent penalty reimbursement directly from developer",
+    "expected_severity": "warning",
+    "expected_source_id": "AG-FACT-POSS-06",
+    "expected_reason": "Penalty reimbursement promise is unsupported by approved project terms.",
+    "expected_result": "unsupported"
+  },
+  {
+    "draft_id": "D009",
+    "issue_category": "artificial_urgency",
+    "affected_text": "Over 98% sold out in Phase 1! Only 3 units left in Tower B",
+    "expected_severity": "warning",
+    "expected_source_id": "BB-GUIDE-URGENCY-08",
+    "expected_reason": "Claims of '98% sold out' and 'only 3 units left' are artificial urgency claims unsupported by approved inventory logs.",
+    "expected_result": "unsupported"
+  },
+  {
+    "draft_id": "D009",
+    "issue_category": "unsupported_claim",
+    "affected_text": "prices will permanently surge by ₹15 Lakhs tomorrow morning",
+    "expected_severity": "warning",
+    "expected_source_id": "BB-GUIDE-VOICE-01",
+    "expected_reason": "High-pressure price deadline violates professional consultative tone and is unsupported by price schedules.",
+    "expected_result": "violation"
+  },
+  {
+    "draft_id": "D010",
+    "issue_category": "regulatory_disclosure_omission",
+    "affected_text": null,
+    "expected_severity": "blocker",
+    "expected_source_id": "AG-APPR-MANDATE-03",
+    "expected_reason": "Marketing copy completely omits mandatory project registration reference 'DEMO-HRERA-GGM-2026-0042' and authority portal URL.",
+    "expected_result": "violation"
+  },
+  {
+    "draft_id": "D011",
+    "issue_category": "factual_contradiction",
+    "affected_text": "2 BHK homes with 1,200 sq. ft. carpet area",
+    "expected_severity": "blocker",
+    "expected_source_id": "AG-FACT-AREA-2BHK-03",
+    "expected_reason": "Directly contradicts approved 2 BHK carpet area of 1,050 sq. ft.",
+    "expected_result": "contradicted"
+  },
+  {
+    "draft_id": "D011",
+    "issue_category": "factual_contradiction",
+    "affected_text": "pricing starts at ₹95 Lakhs",
+    "expected_severity": "blocker",
+    "expected_source_id": "AG-PRICE-START-01",
+    "expected_reason": "Directly contradicts approved starting price of ₹1.25 crore.",
+    "expected_result": "contradicted"
+  },
+  {
+    "draft_id": "D011",
+    "issue_category": "unit_specification",
+    "affected_text": "3 BHK homes with 1,450 sq. ft. carpet area",
+    "expected_severity": "note",
+    "expected_source_id": "AG-FACT-AREA-3BHK-04",
+    "expected_reason": "Claimed 3 BHK carpet area matches approved architectural schedule.",
+    "expected_result": "supported"
+  },
+  {
+    "draft_id": "D011",
+    "issue_category": "location_claim",
+    "affected_text": "Sector 78, Gurugram",
+    "expected_severity": "note",
+    "expected_source_id": "AG-FACT-LOC-01",
+    "expected_reason": "Claimed location matches approved project facts.",
+    "expected_result": "supported"
+  },
+  {
+    "draft_id": "D012",
+    "issue_category": "unapproved_amenity",
+    "affected_text": "Sector 78's first private rooftop helipad",
+    "expected_severity": "blocker",
+    "expected_source_id": "AG-AMEN-UNAPPROVED-06",
+    "expected_reason": "Private rooftop helipad is an unapproved amenity explicitly listed on the architectural negative exclusion list.",
+    "expected_result": "contradicted"
+  },
+  {
+    "draft_id": "D012",
+    "issue_category": "unsupported_claim",
+    "affected_text": "direct executive helicopter transfers to Delhi International Airport in under 12 minutes",
+    "expected_severity": "warning",
+    "expected_source_id": "BB-GUIDE-CLAIM-03",
+    "expected_reason": "Transit time and aerial charter claim is completely unsupported by approved project or civic aviation permissions.",
+    "expected_result": "unsupported"
+  }
+]
+

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "bb-term-area-01",
+    "organisation_id": "org-brick-beyond",
+    "client_id": null,
+    "project_id": null,
+    "source_id": "BB-TERM-01",
+    "source_version": 1,
+    "term": "super built-up area",
+    "preferred": "carpet area (RERA net usable floor area)",
+    "banned": true,
+    "notes": "Marketing materials must not quote prices or compare unit sizes solely based on 'super built-up area' or 'saleable area'. Advertisements must clearly disclose RERA carpet area in square feet (and optional square meters).",
+    "approval_status": "approved",
+    "valid_from": "2026-01-01T00:00:00Z",
+    "valid_until": "2028-12-31T23:59:59Z"
+  },
+  {
+    "id": "bb-term-returns-02",
+    "organisation_id": "org-brick-beyond",
+    "client_id": null,
+    "project_id": null,
+    "source_id": "BB-TERM-02",
+    "source_version": 1,
+    "term": "assured returns / guaranteed returns",
+    "preferred": "projected rental yield (market estimates, subject to risks)",
+    "banned": true,
+    "notes": "Phrases promising guaranteed returns or fixed monthly interest/yield are strictly banned under real estate marketing and regulatory guidelines.",
+    "approval_status": "approved",
+    "valid_from": "2026-01-01T00:00:00Z",
+    "valid_until": "2028-12-31T23:59:59Z"
+  },
+  {
+    "id": "bb-term-launch-03",
+    "organisation_id": "org-brick-beyond",
+    "client_id": null,
+    "project_id": null,
+    "source_id": "BB-TERM-03",
+    "source_version": 1,
+    "term": "pre-launch / soft launch",
+    "preferred": "newly launched / under development",
+    "banned": true,
+    "notes": "Promoting residential projects as 'pre-launch' or 'soft launch' prior to receiving regulatory registration is illegal. Only officially registered projects under development may be marketed.",
+    "approval_status": "approved",
+    "valid_from": "2026-01-01T00:00:00Z",
+    "valid_until": "2028-12-31T23:59:59Z"
+  },
+  {
+    "id": "bb-term-poss-04",
+    "organisation_id": "org-brick-beyond",
+    "client_id": null,
+    "project_id": null,
+    "source_id": "BB-TERM-04",
+    "source_version": 1,
+    "term": "guaranteed possession date",
+    "preferred": "scheduled possession / proposed completion date",
+    "banned": true,
+    "notes": "Possession timelines must be communicated as 'scheduled possession' or 'estimated handover' in accordance with developer registration filings. Do not use 'guaranteed possession' without noting force majeure conditions.",
+    "approval_status": "approved",
+    "valid_from": "2026-01-01T00:00:00Z",
+    "valid_until": "2028-12-31T23:59:59Z"
+  },
+  {
+    "id": "bb-term-hype-05",
+    "organisation_id": "org-brick-beyond",
+    "client_id": null,
+    "project_id": null,
+    "source_id": "BB-TERM-05",
+    "source_version": 1,
+    "term": "7-star resort living",
+    "preferred": "premium lifestyle amenities / contemporary community living",
+    "banned": true,
+    "notes": "Hospitality star ratings (e.g., '7-star') must not be applied to residential housing complexes unless an official hospitality brand tie-up has been formally certified.",
+    "approval_status": "approved",
+    "valid_from": "2026-01-01T00:00:00Z",
+    "valid_until": "2028-12-31T23:59:59Z"
+  }
+]
+

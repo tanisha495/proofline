@@ -1,0 +1,12 @@
+{
+  "name": "Northwind Coffee Compliant Newsletter",
+  "channel": "email_newsletter",
+  "content": "Welcome to Northwind Coffee. Founded in 1985 in Portland, Oregon, our passion is crafting balanced, nuanced roasts for your morning ritual. We now proudly serve guests across 127 retail locations nationwide. Explore our freshly roasted beans and enjoy a peaceful brew.",
+  "intent_lock": {
+    "key_message": "welcoming introduction to Northwind Coffee heritage",
+    "audience": "subscribers and loyal customers",
+    "call_to_action": "explore freshly roasted beans"
+  },
+  "expected_blockers": 0
+}
+

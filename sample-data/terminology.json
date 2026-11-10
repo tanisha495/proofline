@@ -1,0 +1,15 @@
+[
+  {
+    "term": "java",
+    "preferred": "premium roast coffee",
+    "banned": true,
+    "notes": "Informal slang. Use the preferred brand term in all customer-facing content."
+  },
+  {
+    "term": "Northwind",
+    "preferred": "Northwind Coffee",
+    "banned": false,
+    "notes": "Always use the full brand name 'Northwind Coffee' on first mention. 'Northwind' is acceptable in subsequent references."
+  }
+]
+

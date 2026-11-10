@@ -1,0 +1,12 @@
+[
+  {
+    "rule_id": "TONE-01",
+    "category": "Health Claims",
+    "text": "Do not make absolute health claims (e.g., 'healthiest', 'cures') without a peer-reviewed citation. Use hedged language such as 'may support' or 'crafted with wellness in mind'."
+  },
+  {
+    "rule_id": "TONE-02",
+    "category": "Brand Voice",
+    "text": "Maintain a warm, knowledgeable, and approachable tone. Avoid aggressive sales language or pressure tactics. Northwind Coffee speaks as a trusted guide, not a pushy salesperson."
+  }
+]

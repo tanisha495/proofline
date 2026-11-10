@@ -1,0 +1,37 @@
+{
+  "name": "Northwind Coffee Spring Promotion",
+  "channel": "social_ad",
+  "content": "Grab a hot cup of fresh java! Our artisanal roast cures fatigue and improves immunity. With over 300 retail locations across the country, we are the #1 best coffee in America. ACT NOW BEFORE SUPPLIES RUN OUT!",
+  "intent_lock": {
+    "key_message": "premium artisanal morning coffee",
+    "audience": "commuters and coffee enthusiasts",
+    "call_to_action": "order your roast online"
+  },
+  "planted_errors": [
+    {
+      "type": "banned_term",
+      "quoted_text": "java",
+      "source_ref": "TERM-JAVA",
+      "expected_severity": "blocker"
+    },
+    {
+      "type": "health_claim",
+      "quoted_text": "cures fatigue",
+      "source_ref": "TONE-01",
+      "expected_severity": "blocker"
+    },
+    {
+      "type": "fact_conflict",
+      "quoted_text": "300 retail locations",
+      "source_ref": "Number of retail locations",
+      "expected_severity": "blocker"
+    },
+    {
+      "type": "brand_voice_pressure",
+      "quoted_text": "ACT NOW BEFORE SUPPLIES RUN OUT!",
+      "source_ref": "TONE-02",
+      "expected_severity": "warning"
+    }
+  ]
+}
+

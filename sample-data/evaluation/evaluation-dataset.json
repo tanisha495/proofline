@@ -1,0 +1,168 @@
+[
+  {
+    "draft_id": "D001",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - Official Launch Campaign",
+    "channel": "newspaper_print",
+    "scenario": "Correct project advertisement (Clean Control Case). Accurately presents approved project details, approved amenities, verified carpet areas, starting price, scheduled possession date, and regulatory registration reference.",
+    "content": "Discover refined contemporary living at Asteria Greens, a premier residential enclave developed by Asteria Developers in the thriving corridor of Sector 78, Gurugram. Designed for discerning families, Asteria Greens offers thoughtfully planned 2 BHK (1,050 sq. ft. carpet area) and 3 BHK (1,450 sq. ft. carpet area) residences. Enjoy curated lifestyle amenities including a modern swimming pool, fully equipped gymnasium, 12,000 sq. ft. community clubhouse, landscaped central greens with jogging tracks, and 24/7 multi-tier security. Residences start at ₹1.25 crore with attractive construction-linked payment milestones. Scheduled possession: December 2028. Project Registration: DEMO-HRERA-GGM-2026-0042 available at https://haryanarera.gov.in. (Fictional Demonstration Project)",
+    "expected_issue_categories": []
+  },
+  {
+    "draft_id": "D002",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - Luxury Space Brochure Excerpt",
+    "channel": "project_brochure",
+    "scenario": "Incorrect carpet area claim. Inflates the approved 2 BHK and 3 BHK carpet areas, directly contradicting approved architectural specifications.",
+    "content": "Experience expansive living rooms and palatial bedrooms at Asteria Greens, Sector 78, Gurugram. Our master architects have maximized your personal domain: 2 BHK residences feature a generous 1,250 sq. ft. carpet area, while 3 BHK residences offer an expansive 1,850 sq. ft. carpet area. Prices start at ₹1.25 crore. Scheduled possession is targeted for December 2028. Project Registration: DEMO-HRERA-GGM-2026-0042 at https://haryanarera.gov.in. (Fictional Demonstration Project)",
+    "expected_issue_categories": [
+      "factual_contradiction",
+      "area_specification"
+    ]
+  },
+  {
+    "draft_id": "D003",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - Social Media Festive Discount Campaign",
+    "channel": "social_media",
+    "scenario": "Incorrect advertised price. Claims an unapproved promotional starting price of ₹89 Lakhs, contradicting the approved starting price of ₹1.25 crore.",
+    "content": "✨ Festive Grand Opening at Sector 78, Gurugram! Asteria Developers brings you Asteria Greens — luxury 2 & 3 BHK residences starting at an unbeatable promotional price of just ₹89 Lakhs! Experience world-class living with a sparkling swimming pool, clubhouse, and gym. Scheduled possession: December 2028. Don't miss this limited festive pricing! Project Registration: DEMO-HRERA-GGM-2026-0042. Details at https://haryanarera.gov.in. (Fictional Demonstration Project)",
+    "expected_issue_categories": [
+      "factual_contradiction",
+      "pricing_claim"
+    ]
+  },
+  {
+    "draft_id": "D004",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - Early Move-in Email Newsletter",
+    "channel": "email_newsletter",
+    "scenario": "Incorrect possession date. Claims handover by December 2026 instead of the approved scheduled possession date of December 2028.",
+    "content": "Subject: Move into your dream home sooner than you think at Asteria Greens!\n\nDear Homebuyer, why wait years for your sanctuary? Asteria Greens in Sector 78, Gurugram is advancing at record construction speed. We are delighted to announce early handover with scheduled possession by December 2026! Book your premium 2 BHK (1,050 sq. ft. carpet area) starting at ₹1.25 crore today. Project Registration: DEMO-HRERA-GGM-2026-0042 at https://haryanarera.gov.in. (Fictional Demonstration Project)",
+    "expected_issue_categories": [
+      "factual_contradiction",
+      "possession_timeline"
+    ]
+  },
+  {
+    "draft_id": "D005",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - Wealth Investor Advisory Pitch",
+    "channel": "website_landing_page",
+    "scenario": "Unsupported guaranteed investment returns. Promising 14% guaranteed annual rental yield and assured capital appreciation in violation of agency and statutory investment guidelines.",
+    "content": "Multiply your wealth with Gurugram's highest-yielding real estate opportunity. Investing in Asteria Greens, Sector 78 guarantees an assured 14% annual rental yield from day one, backed by developer bank guarantees. Furthermore, our corporate asset managers guarantee a 2.5x capital appreciation within 36 months with zero market risk. Invest starting at ₹1.25 crore for high-growth 2 BHK apartments. Project Registration: DEMO-HRERA-GGM-2026-0042. (Fictional Demonstration Project)",
+    "expected_issue_categories": [
+      "guideline_violation",
+      "misleading_financial_claim",
+      "unsupported_claim"
+    ]
+  },
+  {
+    "draft_id": "D006",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - Aquatic Luxury Social Creative",
+    "channel": "social_media",
+    "scenario": "Unapproved amenity claim and unsubstantiated superlative. Claims an indoor temperature-controlled wave pool and private bowling alley, which are unapproved and contradict project amenity specifications.",
+    "content": "Step into resort splendour at Asteria Greens in Sector 78, Gurugram! Indulge in Gurugram's largest all-weather indoor temperature-controlled Olympic wave pool and a 4-lane private boutique bowling alley right inside your community. Elegant 2 & 3 BHK residences start at ₹1.25 crore. Scheduled possession: December 2028. Project Registration: DEMO-HRERA-GGM-2026-0042. (Fictional Demonstration Project)",
+    "expected_issue_categories": [
+      "factual_contradiction",
+      "unapproved_amenity",
+      "superlative_substantiation"
+    ]
+  },
+  {
+    "draft_id": "D007",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - Weekend Property Showcase Advert",
+    "channel": "newspaper_print",
+    "scenario": "Incorrect area terminology. Markets apartments using 'Super Built-up Area' exclusively and omits mandatory RERA carpet area disclosure.",
+    "content": "Asteria Greens, Sector 78, Gurugram presents grand living with an expansive Super Built-up Area of 1,650 sq. ft. for 2 BHK and 2,150 sq. ft. Super Built-up Area for 3 BHK homes. Benefit from unmatched space planning starting at ₹1.25 crore. Scheduled possession: December 2028. Visit our experience centre this weekend. Project Registration: DEMO-HRERA-GGM-2026-0042 at https://haryanarera.gov.in. (Fictional Demonstration Project)",
+    "expected_issue_categories": [
+      "terminology_violation",
+      "regulatory_disclosure_omission"
+    ]
+  },
+  {
+    "draft_id": "D008",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - On-Time Guarantee SMS Broadcast",
+    "channel": "sms_campaign",
+    "scenario": "Scheduled possession represented as guaranteed. Misrepresents estimated milestone as an unconditional corporate guarantee with penalty promises.",
+    "content": "Asteria Greens, Sec 78 Gurugram: 100% Guaranteed Possession by December 2028 or receive double monthly rent penalty reimbursement directly from developer! 2 & 3 BHK homes starting at ₹1.25 Cr with pool & gym. Booking open. Reg: DEMO-HRERA-GGM-2026-0042. T&C apply. (Fictional Demo)",
+    "expected_issue_categories": [
+      "misrepresentation_of_terms",
+      "unsupported_guarantee"
+    ]
+  },
+  {
+    "draft_id": "D009",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - Midnight Urgency Landing Page",
+    "channel": "website_landing_page",
+    "scenario": "Unsupported limited-inventory urgency claim. Fabricating artificial scarcity ('only 3 units left') without inventory log verification.",
+    "content": "CRITICAL ALERT: Over 98% sold out in Phase 1! Only 3 units left in Tower B at Asteria Greens, Sector 78, Gurugram. Our flash allocation window closes at midnight tonight, and prices will permanently surge by ₹15 Lakhs tomorrow morning. Lock in your 2 BHK (1,050 sq. ft. carpet area) at ₹1.25 crore right now before inventory is completely exhausted! Reg: DEMO-HRERA-GGM-2026-0042. (Fictional Demonstration Project)",
+    "expected_issue_categories": [
+      "unsupported_claim",
+      "artificial_urgency"
+    ]
+  },
+  {
+    "draft_id": "D010",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - Lifestyle Reel Social Video Copy",
+    "channel": "social_media",
+    "scenario": "Missing required project registration disclosure. Completely omits the mandatory RERA registration number and authority portal link.",
+    "content": "Wake up to lush green views and premium clubhouse lifestyle at Asteria Greens! Located in Sector 78, Gurugram, offering 2 & 3 BHK luxury residences (1,050 & 1,450 sq. ft. carpet area) with infinity pool and fitness centre. Starting at ₹1.25 crore. Scheduled possession: December 2028. DM us now to book your private VIP site tour! (Fictional Demonstration Project)",
+    "expected_issue_categories": [
+      "regulatory_disclosure_omission"
+    ]
+  },
+  {
+    "draft_id": "D011",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - Lifestyle Magazine Feature",
+    "channel": "newspaper_print",
+    "scenario": "Multiple correct and incorrect project claims. Correctly states location (Sector 78 Gurugram), developer (Asteria Developers), scheduled possession (December 2028), and pool/gym amenities; but misstates starting price (₹95 Lakhs instead of ₹1.25 Cr) and 2 BHK carpet area (1,200 sq. ft. instead of 1,050 sq. ft.).",
+    "content": "Asteria Developers proudly unveils Asteria Greens, an architectural triumph in Sector 78, Gurugram. Featuring an outdoor swimming pool, modern gymnasium, and landscaped central greens, the project offers 2 BHK homes with 1,200 sq. ft. carpet area and 3 BHK homes with 1,450 sq. ft. carpet area. Attractive inaugural pricing starts at ₹95 Lakhs. Scheduled possession is targeted for December 2028. Project Registration: DEMO-HRERA-GGM-2026-0042 at https://haryanarera.gov.in. (Fictional Demonstration Project)",
+    "expected_issue_categories": [
+      "factual_contradiction"
+    ]
+  },
+  {
+    "draft_id": "D012",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "title": "Asteria Greens - Executive Aerial Living Flyer",
+    "channel": "project_brochure",
+    "scenario": "Unsupported rooftop helipad claim. Asserts that Asteria Greens features a private rooftop helipad for executive airport transit, an amenity not in the project specification and rejected in the architectural sanction.",
+    "content": "For leaders who value time above all else, Asteria Greens in Sector 78, Gurugram introduces Sector 78's first private rooftop helipad, offering seamless direct executive helicopter transfers to Delhi International Airport in under 12 minutes. Live alongside a luxury swimming pool, gymnasium, and 3 BHK residences (1,450 sq. ft. carpet area). Prices from ₹1.25 crore. Possession: Dec 2028. Reg: DEMO-HRERA-GGM-2026-0042. (Fictional Demonstration Project)",
+    "expected_issue_categories": [
+      "unsupported_claim",
+      "unapproved_amenity"
+    ]
+  }
+]
+

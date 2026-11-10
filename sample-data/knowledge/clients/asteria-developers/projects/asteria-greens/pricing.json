@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ag-price-start-01",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "source_id": "AG-PRICE-START-01",
+    "source_version": 1,
+    "pricing_type": "Starting Advertised Price (2 BHK)",
+    "value_inr": "12,500,000",
+    "formatted_price": "₹1.25 crore",
+    "unit_type": "2 BHK (1,050 sq. ft. carpet area)",
+    "description": "Base sale price starting at ₹1.25 crore for 2 BHK configurations. Excludes applicable GST, stamp duty, registration charges, advance maintenance deposit, and preferential location charges (PLC). Advertised price must not state lower promotional figures.",
+    "approval_status": "approved",
+    "owner": "Asteria Developers Commercial Finance",
+    "source": "Approved Price List Schedule Q1 2026 v1.0",
+    "valid_from": "2026-01-01T00:00:00Z",
+    "valid_until": "2028-12-31T23:59:59Z"
+  },
+  {
+    "id": "ag-price-3bhk-02",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "source_id": "AG-PRICE-3BHK-02",
+    "source_version": 1,
+    "pricing_type": "Starting Advertised Price (3 BHK)",
+    "value_inr": "17,500,000",
+    "formatted_price": "₹1.75 crore",
+    "unit_type": "3 BHK (1,450 sq. ft. carpet area)",
+    "description": "Base sale price starting at ₹1.75 crore for 3 BHK configurations. Excludes government statutory taxes, registration, and external electrification charges.",
+    "approval_status": "approved",
+    "owner": "Asteria Developers Commercial Finance",
+    "source": "Approved Price List Schedule Q1 2026 v1.0",
+    "valid_from": "2026-01-01T00:00:00Z",
+    "valid_until": "2028-12-31T23:59:59Z"
+  },
+  {
+    "id": "ag-price-payment-plan-03",
+    "organisation_id": "org-brick-beyond",
+    "client_id": "client-asteria-developers",
+    "project_id": "proj-asteria-greens",
+    "source_id": "AG-PRICE-PAYPLAN-03",
+    "source_version": 1,
+    "pricing_type": "Approved Payment Scheme",
+    "value_inr": null,
+    "formatted_price": "Construction-Linked Payment Plan (CLP)",
+    "unit_type": "All Units",
+    "description": "Approved standard Construction-Linked Payment Plan (10% booking amount, 10% on commencement of excavation, milestone-based slab payments, and 5% on notice of possession). No 'Assured Rental Returns' or 'Zero EMI till Possession' schemes are approved for this project.",
+    "approval_status": "approved",
+    "owner": "Asteria Developers Sales Strategy",
+    "source": "Sales Payment Plan Sanction v1.0",
+    "valid_from": "2026-01-01T00:00:00Z",
+    "valid_until": "2028-12-31T23:59:59Z"
+  }
+]
+
